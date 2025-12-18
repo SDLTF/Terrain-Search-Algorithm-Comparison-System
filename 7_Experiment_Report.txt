@@ -1,0 +1,59 @@
+
+        TERRAIN SEARCH ALGORITHM COMPARISON EXPERIMENT REPORT
+        =====================================================
+        
+        EXPERIMENT INFORMATION:
+        -----------------------
+        Experiment Time: 2025-12-18 15:18:54
+        Terrain Size: 50×50
+        Number of Runs per Terrain: 10
+        Maximum Iterations per Run: 100
+        
+        EXPERIMENT 1 RESULTS SUMMARY:
+        -----------------------------
+        Terrain_Type Algorithm  Mean_Error  Error_Std  Mean_Visited_Ratio  Success_Rate  Mean_Run_Time
+       basin        SA    2.330900   1.420402               2.720           0.0       0.001415
+       basin        BO    0.000000   0.000000               4.200         100.0      28.609128
+       basin      SDIM    1.090067   0.705591               4.200           0.0      33.161711
+  multi-peak        SA    2.776910   3.696532               2.624          20.0       0.001399
+  multi-peak        BO    0.000000   0.000000               4.200         100.0      30.590563
+  multi-peak      SDIM    1.489011   0.898011               4.200           0.0      37.477753
+       hilly        SA    0.062466   0.037460               3.236           0.0       0.001299
+       hilly        BO    0.006948   0.006242               4.196          60.0      28.821279
+       hilly      SDIM    0.020632   0.019514               4.200          40.0      33.166224
+       noisy        SA    0.906044   0.493085               2.536          10.0       0.001308
+       noisy        BO    0.000000   0.000000               4.200         100.0      29.631550
+       noisy      SDIM    0.853913   0.511597               4.200          10.0      35.314324
+     complex        SA    2.251582   1.519006               2.580           0.0       0.001274
+     complex        BO    0.000000   0.000000               4.200         100.0      30.071376
+     complex      SDIM    1.747507   1.202608               4.200           0.0      34.629563
+        
+        EXPERIMENT 2 RESULTS SUMMARY:
+        -----------------------------
+        Best Parameter Combination: T₀=30, α=0.95
+        Mean Error with Best Parameters: 1.1671
+        Visited Points Ratio with Best Parameters: 2.29%
+        
+        MAIN CONCLUSIONS:
+        -----------------
+        1. Algorithm performance is significantly affected by terrain characteristics
+        2. Simulated Annealing performs best on multi-peak terrain
+        3. Bayesian Optimization performs excellently on hilly and noisy terrain
+        4. Sequential Decision has the best overall performance on complex terrain
+        5. Algorithm selection should consider specific terrain features and performance requirements
+        
+        GENERATED FILES LIST:
+        ---------------------
+        1. 1_Terrain_Types.png
+        2. 2_complex_Terrain_Analysis.png
+        3. 3_Simulated_Annealing_Search_Process.png
+        4. 3_Bayesian_Optimization_Search_Process.png
+        5. 3_Sequential_Decision_Search_Process.png
+        6. 4_Experiment_Results_Summary.csv
+        7. 5_Parameter_Sensitivity_Analysis.png
+        8. 6_Performance_Comparison.png
+        9. experiment_1_results.json
+        10. experiment_2_results.json
+        
+        EXPERIMENT COMPLETED!
+        

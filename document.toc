@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}引言}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}研究背景与意义}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}研究内容与创新点}{4}{subsection.1.2}%
+\contentsline {section}{\numberline {2}相关算法介绍}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}模拟退火算法（Simulated Annealing, SA）}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}基于高斯过程的贝叶斯优化（Bayesian Optimization with Gaussian Process）}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}基于插值模型的序列决策（Interpolation-based Optimization, IO）}{7}{subsection.2.3}%
+\contentsline {section}{\numberline {3}实验结果数据分析和可视化分析}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}地形可视化结果}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}地形搜索算法对比实验}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}实验信息}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}实验1结果摘要（见表格）}{10}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}实验2结果摘要}{11}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}总体性能比较}{11}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}地形对算法性能的影响}{11}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}算法效率分析}{12}{subsubsection.3.2.6}%
+\contentsline {section}{\numberline {4}从实验结果的角度对算法特征的分析}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}模拟退火 SA}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}贝叶斯优化算法 BO}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}序列决策差值模型 SDIM}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}对地形特征的适应性}{13}{subsection.4.4}%
+\contentsline {section}{\numberline {5}实用建议与未来工作}{13}{section.5}%
+\contentsline {section}{\numberline {6}参考文献}{14}{section.6}%
+\contentsline {section}{\numberline {A}实验代码实现}{16}{appendix.1.A}%
+\contentsline {subsection}{\numberline {A.1}模拟退火算法实现}{16}{subsection.1.A.1}%
+\contentsline {subsection}{\numberline {A.2}贝叶斯优化算法实现}{18}{subsection.1.A.2}%
+\contentsline {subsection}{\numberline {A.3}序列决策插值模型实现}{20}{subsection.1.A.3}%
+\contentsline {subsection}{\numberline {A.4}地形生成代码}{23}{subsection.1.A.4}%
